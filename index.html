@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Feri Irawan | Odoo Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Personal portfolio of Feri Irawan, Odoo Developer specializing in HR, Payroll, and system integration."
+  />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font: Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="navbar__brand">
+        <span class="navbar__logo">FI</span>
+        <span class="navbar__name">Feri Irawan</span>
+      </div>
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="navbar__links" id="navLinks">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero__content">
+      <p class="hero__eyebrow"><i class="fa-solid fa-terminal"></i> Odoo Developer</p>
+      <h1 class="hero__title">Hi, I’m <span>Feri Irawan</span></h1>
+      <p class="hero__subtitle">
+        I design, customize, and integrate <strong>Odoo-based solutions</strong> to automate
+        business processes, streamline HR operations, and deliver scalable ERP workflows.
+      </p>
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn--primary">
+          <i class="fa-solid fa-code-branch"></i> View Projects
+        </a>
+        <a href="#contact" class="btn btn--ghost">
+          <i class="fa-solid fa-envelope"></i> Contact Me
+        </a>
+      </div>
+      <div class="hero__meta">
+        <div class="hero__meta-item">
+          <i class="fa-solid fa-location-dot"></i>
+          South Jakarta, Indonesia
+        </div>
+        <div class="hero__meta-item">
+          <i class="fa-solid fa-circle"></i>
+          Open to opportunities
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section section--alt">
+    <div class="section__inner">
+      <div class="section__header">
+        <h2>About Me</h2>
+        <p>Who I am and what I do</p>
+      </div>
+      <div class="about">
+        <div class="about__text">
+          <p>
+            I’m an <strong>Odoo Developer</strong> with hands-on experience in designing,
+            customizing, and integrating Odoo applications for business automation. I work
+            end-to-end—from understanding requirements and modelling workflows to implementing
+            custom modules, integrating APIs, and optimizing performance.
+          </p>
+          <p>
+            My core focus is building <strong>HR, Payroll, and Operations</strong> solutions on
+            Odoo 17, supported by a strong foundation in <strong>Python, PostgreSQL, and REST
+            APIs</strong>. I enjoy solving complex problems, improving system reliability, and
+            collaborating with cross-functional teams to ship features that actually help users.
+          </p>
+          <p>
+            Outside of coding, I continuously sharpen my skills in project management,
+            documentation, and analytics to deliver solutions that are both technically solid and
+            operationally impactful.
+          </p>
+        </div>
+        <div class="about__highlights">
+          <div class="card card--stat">
+            <span class="card__label">Current Role</span>
+            <p class="card__value">Junior Odoo Developer</p>
+            <p class="card__sub">Arkana Solusi Digital, PT</p>
+          </div>
+          <div class="card card--stat">
+            <span class="card__label">Professional Focus</span>
+            <p class="card__value">HR & Payroll Automation</p>
+            <p class="card__sub">Attendance, Overtime, Leave, Payroll</p>
+          </div>
+          <div class="card card--stat">
+            <span class="card__label">Background</span>
+            <p class="card__value">B.Eng in Geological/Geophysical Engineering</p>
+            <p class="card__sub">Institut Teknologi Bandung</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="section__inner">
+      <div class="section__header">
+        <h2>Skills</h2>
+        <p>Tech stack and capabilities</p>
+      </div>
+      <div class="skills">
+        <div class="skills__group">
+          <h3><i class="fa-solid fa-code"></i> Programming & ERP</h3>
+          <ul>
+            <li>Python</li>
+            <li>PostgreSQL</li>
+            <li>Odoo Framework (v17)</li>
+            <li>XML &amp; QWeb</li>
+            <li>REST / JSON APIs</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h3><i class="fa-solid fa-gears"></i> DevOps & Tools</h3>
+          <ul>
+            <li>Docker</li>
+            <li>Git &amp; GitHub</li>
+            <li>CI/CD pipelines</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h3><i class="fa-solid fa-lightbulb"></i> Other Skills</h3>
+          <ul>
+            <li>Problem Solving &amp; Debugging</li>
+            <li>Troubleshooting &amp; Performance Optimization</li>
+            <li>Technical Documentation</li>
+            <li>Project Coordination</li>
+            <li>Data Annotation &amp; Quality Assurance</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section section--alt">
+    <div class="section__inner">
+      <div class="section__header">
+        <h2>Professional Experience</h2>
+        <p>Where I’ve been building and learning</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <h3>Junior Odoo Developer</h3>
+            <p class="timeline__meta">
+              Arkana Solusi Digital, PT · Feb 2024 – Present
+            </p>
+            <ul>
+              <li>Designed and implemented custom Odoo modules for diverse client requirements.</li>
+              <li>Configured and customized Odoo workflows, reducing manual processing time.</li>
+              <li>Developed reporting features that cut report generation time significantly.</li>
+              <li>Integrated third-party REST/JSON APIs for seamless data synchronization.</li>
+              <li>Optimized SQL queries and Odoo business logic to improve backend performance.</li>
+              <li>Provided technical support and troubleshooting during implementation and rollout.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <h3>Data Annotation</h3>
+            <p class="timeline__meta">
+              MileApp · Nov 2023 – Dec 2023
+            </p>
+            <ul>
+              <li>Supported AI initiatives by annotating and labelling datasets with high accuracy.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <h3>Quality Assurance &amp; Data Annotation</h3>
+            <p class="timeline__meta">
+              Prosa.ai · Jun 2023 – Nov 2023
+            </p>
+            <ul>
+              <li>Performed QA checks to ensure annotation accuracy and consistency.</li>
+              <li>Helped streamline internal workflows to increase throughput and data quality.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <h3>Content Creator</h3>
+            <p class="timeline__meta">
+              Zenius · Mar 2021 – Sep 2021
+            </p>
+            <ul>
+              <li>Produced educational content while maintaining strict quality standards.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="section__inner">
+      <div class="section__header">
+        <h2>Projects</h2>
+        <p>Selected Odoo implementations</p>
+      </div>
+      <div class="projects">
+        <article class="project-card">
+          <div class="project-card__header">
+            <h3>Odoo Human Capital Management (HCM) Suite</h3>
+            <p class="project-card__meta">PT NOK Indonesia · Odoo 17</p>
+          </div>
+          <p class="project-card__summary">
+            Implemented a full HR suite covering attendance, overtime, payroll, and leave on Odoo 17.
+          </p>
+          <ul class="project-card__details">
+            <li>Built employee self-service portal for overtime, time-off, and attendance requests.</li>
+            <li>Implemented tier-based validation workflows to streamline HR approvals.</li>
+            <li>Delivered payroll reports and dashboards for better HR decision-making.</li>
+          </ul>
+          <div class="project-card__tags">
+            <span>Odoo 17</span><span>HR</span><span>Payroll</span><span>Portal</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <h3>Odoo Attendance Integration</h3>
+            <p class="project-card__meta">PT Jakarta Post</p>
+          </div>
+          <p class="project-card__summary">
+            Integrated a fingerprint solution into Odoo for automated attendance tracking.
+          </p>
+          <ul class="project-card__details">
+            <li>Synchronized check-in/check-out logs from biometric devices to Odoo HR Attendance.</li>
+            <li>Improved data accuracy and reduced manual HR adjustments.</li>
+          </ul>
+          <div class="project-card__tags">
+            <span>Odoo HR</span><span>Biometric</span><span>Integration</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <h3>Odoo HCM Suite</h3>
+            <p class="project-card__meta">PT Karya Pacific Shipping · Jakarta</p>
+          </div>
+          <p class="project-card__summary">
+            Built a complete HR suite on Odoo 17 covering recruitment, payroll, attendance, overtime, and leave.
+          </p>
+          <ul class="project-card__details">
+            <li>Integrated multiple biometric devices (Solution, ZKTeco &amp; Fingerspot) for attendance.</li>
+            <li>Developed self-service portals and automated workflows for HR processes.</li>
+            <li>Delivered compliance-ready payroll reports and dashboards.</li>
+          </ul>
+          <div class="project-card__tags">
+            <span>Odoo 17</span><span>Recruitment</span><span>Attendance</span><span>Compliance</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <h3>Odoo–Jubelio Integration</h3>
+            <p class="project-card__meta">Margaria Group</p>
+          </div>
+          <p class="project-card__summary">
+            Developed a custom integration module between Jubelio Omnichannel and Odoo.
+          </p>
+          <ul class="project-card__details">
+            <li>Automated product synchronization and sales order import.</li>
+            <li>Implemented real-time inventory updates across platforms.</li>
+            <li>Improved retail operations efficiency with consistent data flow.</li>
+          </ul>
+          <div class="project-card__tags">
+            <span>Integration</span><span>Retail</span><span>API</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section section--alt">
+    <div class="section__inner">
+      <div class="section__header">
+        <h2>Education &amp; Certifications</h2>
+        <p>Formal education and continuous learning</p>
+      </div>
+      <div class="education">
+        <div class="education__item">
+          <h3>Institut Teknologi Bandung</h3>
+          <p class="education__meta">
+            Bachelor’s Degree, Geological/Geophysical Engineering · 2015 – 2020
+          </p>
+        </div>
+        <div class="education__item">
+          <h3>Certifications</h3>
+          <ul>
+            <li>Odoo Functional Training</li>
+            <li>SQL (Advanced) Certificate</li>
+            <li>Python (Basic) Certificate</li>
+            <li>Google Project Management Professional Certificate</li>
+            <li>Google Data Analytics Professional Certificate</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section section--contact">
+    <div class="section__inner">
+      <div class="section__header">
+        <h2>Contact</h2>
+        <p>Let’s talk about Odoo, HR, or automation</p>
+      </div>
+      <div class="contact">
+        <div class="contact__info">
+          <p>
+            I’m open to opportunities, collaborations, and discussions around Odoo development,
+            HR/payroll automation, and system integration.
+          </p>
+          <ul>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:frrwn98@gmail.com">frrwn98@gmail.com</a>
+            </li>
+            <li>
+              <i class="fa-brands fa-linkedin"></i>
+              <a href="https://linkedin.com/in/frrwn98" target="_blank" rel="noreferrer">
+                linkedin.com/in/frrwn98
+              </a>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+6281371822644">+62 813-7182-2644</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              South Jakarta, Indonesia
+            </li>
+          </ul>
+        </div>
+        <form class="contact__form" onsubmit="return false;">
+          <div class="form__group">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your name" />
+          </div>
+          <div class="form__group">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="you@example.com" />
+          </div>
+          <div class="form__group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Write a short message..."></textarea>
+          </div>
+          <button class="btn btn--primary" type="submit">
+            <i class="fa-solid fa-paper-plane"></i> Send (Demo Only)
+          </button>
+          <p class="contact__note">
+            This form is a frontend demo. To make it functional, connect it to a backend or service
+            like Formspree.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Feri Irawan. Built with HTML, CSS, and a bit of JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
